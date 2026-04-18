@@ -4,7 +4,7 @@ MemPalace — Give your AI a memory. No API key required.
 
 Two ways to ingest:
   Projects:      mempalace mine ~/projects/my_app          (code, docs, notes)
-  Conversations: mempalace mine ~/chats/ --mode convos     (Claude, ChatGPT, Slack)
+  Conversations: mempalace mine ~/.claude/projects/ --mode convos   (Claude Code sessions; also ChatGPT/Slack exports)
 
 Same palace. Same search. Different ingest strategies.
 
@@ -22,7 +22,7 @@ Commands:
 Examples:
     mempalace init ~/projects/my_app
     mempalace mine ~/projects/my_app
-    mempalace mine ~/chats/claude-sessions --mode convos
+    mempalace mine ~/.claude/projects/ --mode convos
     mempalace search "why did we switch to GraphQL"
     mempalace search "pricing discussion" --wing my_app --room costs
 """
